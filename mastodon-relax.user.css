@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name         Mastodon Relax
+@version      0.0.1
+@description  A relaxed view for Mastodon's advanced interface
+@namespace    ashwinvis
+@author       ashwinvis
+@homepageURL  https://github.com/ashwinvis/mastodon-relax
+@supportURL   https://github.com/ashwinvis/mastodon-relax/issues
+@updateURL    https://raw.githubusercontent.com/ashwinvis/mastodon-relax/master/mastodon-relax.user.css
+@license      CC-BY-SA-4.0
+@advanced     text col-width "Column Width" "41em"
+@preprocessor uso
+==/UserStyle== */
+@-moz-document regexp("^https?:\\/\\/mastodon\\..*") {
+.column {
+	width: /*[[col-width]]*/ !important;
+}
+}
