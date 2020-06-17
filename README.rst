@@ -6,6 +6,7 @@ Mastodon Relax
 A relaxed view for Mastodon's advanced interface. Features:
 
 - Customizable wider columns
+- Dim columns by default, and brighten on hover
 
 Preview
 -------

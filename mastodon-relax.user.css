@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Mastodon Relax
-@version      0.0.1
+@version      0.1.0
 @description  A relaxed view for Mastodon's advanced interface
 @namespace    ashwinvis
 @author       ashwinvis
@@ -12,7 +12,25 @@
 @preprocessor uso
 ==/UserStyle== */
 @-moz-document regexp("^https?:\\/\\/mastodon\\..*") {
-.column {
-	width: /*[[col-width]]*/ !important;
-}
+    .column {
+        width: /*[[col-width]]*/ !important;
+
+        -webkit-filter: brightness(/*[[col-bright]]*/);
+
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+    /* todo: darken .app-body */
+    .column:hover {
+        -webkit-filter: brightness(100%);
+
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
 }
