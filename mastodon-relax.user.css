@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Mastodon Relax
-@version      0.1.0
+@version      0.1.1
 @description  A relaxed view for Mastodon's advanced interface
 @namespace    ashwinvis
 @author       ashwinvis
@@ -9,6 +9,7 @@
 @updateURL    https://raw.githubusercontent.com/ashwinvis/mastodon-relax/master/mastodon-relax.user.css
 @license      CC-BY-SA-4.0
 @advanced     text col-width "Column Width" "41em"
+@advanced     text col-bright "Column Default Brightness" "70%"
 @preprocessor uso
 ==/UserStyle== */
 @-moz-document regexp("^https?:\\/\\/mastodon\\..*") {
