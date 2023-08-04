@@ -11,11 +11,7 @@ A relaxed view for Mastodon's advanced interface. Features:
 Preview
 -------
 
-======== ========
-Before   After
-======== ========
-|image0| |image1|
-======== ========
+|image3|
 
 Customization
 -------------
@@ -62,3 +58,5 @@ If you would like to contribute to this repository, please…
 .. |image1| image:: ./images/after.png
     :width: 80%
 .. |image2| image:: ./images/customization.png
+.. |image3| image:: https://userstyles.world/preview/633/2.webp
+    :width: 80%
